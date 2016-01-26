@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Premier League</title>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<div class='table-container'>
+		<div class="table-title"> 
+			<h1>Premier League 2015/16</h1>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Team</th>
+					<th>GP</th>
+					<th>Win</th>
+					<th>Draw</th>
+					<th>Loss</th>
+					<th>Goals</th>
+					<th>Goals Against</th>
+					<th>Goal Diff</th>
+					<th>Points</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Liverpool</td>
+					<td>15</td>
+					<td>10</td>
+					<td>3</td>
+					<td>2</td>
+					<td>30</td>
+					<td>25</td>
+					<td>5</td>
+					<td>33</td>
+				</tr>
+					<tr>
+					<td>Leicester</td>
+					<td>15</td>
+					<td>10</td>
+					<td>3</td>
+					<td>2</td>
+					<td>30</td>
+					<td>25</td>
+					<td>5</td>
+					<td>33</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<div class="sidebar">
+	<div class="sidebar-nav">
+		<nav>
+			<a id="team-stats" class="nav-option nav-selected" href="#">STATS</a>
+			<a id="team-roster" class="nav-option" href="#">ROSTER</a>
+			<a id="sidebar-close" href="#">Close</a>
+		</nav>
+		<!-- Could potentially break what follows out into a separate file/partial loaded with AJAX -->
+		<div class="sidebar-content">
+			<div class="content-option team-stats nav-selected">
+				<div class="team-logo">
+					<img src="http://upload.wikimedia.org/wikipedia/de/f/fd/ManCity.svg">
+				</div>
+				<div class="team-data"></div>
+			</div>
+			<!-- For the second tab, Roster -->
+			<div class="content-option team-roster">
+				<!-- TODO: format table with roster, make request, etc -->
+				<table>
+					<thead>
+						<tr>
+							<th>Name</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sergio Aguero</td>
+						</tr>
+						<tr>
+							<td>Yaya Toure</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="clearBoth"></div>
+</body>
+</html>

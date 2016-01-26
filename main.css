@@ -1,0 +1,151 @@
+html, body {
+	margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #edeff0;
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+}
+
+.table-container {
+	margin: 20px auto;
+  width: 95%;
+  background-color: white;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.table-title {
+	width: 95%;
+	margin: 20px auto;
+}
+
+table {
+	margin: 20px auto;
+	border-spacing: 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+th, td {
+	padding: 12px;
+	border-bottom: 1px solid #edeff0;
+}
+
+thead {
+	background-color: #edeff0;
+}
+
+th:first-child, td:first-child {
+	min-width: 200px;
+	text-align: left;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+tbody tr {
+	background-color: white;
+}
+
+tbody tr:hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+tbody tr:last-child td {
+	border-bottom: none;
+}
+
+tbody tr:last-child td:first-child {
+	border-bottom-left-radius: 5px;
+}
+
+tbody tr:last-child td:last-child {
+	border-bottom-right-radius: 5px;
+}
+
+.sidebar, .container {
+    float: left;
+    height: 100%;
+}
+
+
+/* Sidebar styles */
+.sidebar {
+	display: none;
+	background-color: black;
+  width: 35%;
+  overflow: auto;
+}
+
+.sidebar-nav {
+ 
+}
+
+.sidebar-nav nav {
+	padding: 0;
+	margin-bottom: 40px;
+	background-color: white;
+	padding: 20px 0;
+
+}
+
+.sidebar-nav a:link, 
+.sidebar-nav a:visited, 
+.sidebar-nav a:hover, 
+.sidebar-nav a:active {
+	padding: 15px;
+	text-decoration: none;
+	color: inherit;
+}
+
+nav .nav-selected {
+	border-bottom: 5px solid blue;
+}
+
+#sidebar-close {
+	float: right;
+	margin: 0 15px;
+	padding: 0;
+}
+
+.team-logo {
+	margin: 20px auto;
+  height: 200px;
+  width: 200px;
+  background: white;
+  border-radius: 5px;
+}
+
+.team-logo img {
+	height: 100%;
+	width: 100%;
+}
+
+.team-data {
+	margin: 10px auto;
+  width: 90%;
+  height: 200px;
+  background: white;
+}
+
+.team-roster table {
+	width: 90%;
+}
+
+
+.clearBoth {
+    clear: both;
+}
+
