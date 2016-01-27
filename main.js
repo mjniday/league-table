@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	open_sidebar();
+	close_sidebar();
   select_tab();
 });
 
@@ -11,8 +12,10 @@ function open_sidebar() {
 }
 
 function close_sidebar() {
-	// hide .sidebar
-	// expand width of .container
+	$('#sidebar-close').on('click', function(){
+		$('.sidebar').hide();
+		$('.container').css('width','100%');
+	})
 }
 
 function select_tab() {

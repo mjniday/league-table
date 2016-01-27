@@ -30,6 +30,8 @@ table {
 	border-spacing: 0;
 	text-align: center;
 	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px -5px;
 }
 
 th, td {
@@ -58,7 +60,7 @@ tbody tr {
 	background-color: white;
 }
 
-tbody tr:hover {
+.table-container tbody tr:hover {
 	background-color: green;
 	cursor: pointer;
 }
@@ -138,6 +140,10 @@ nav .nav-selected {
   width: 90%;
   height: 200px;
   background: white;
+}
+
+.team-roster {
+	display: none;
 }
 
 .team-roster table {
