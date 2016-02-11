@@ -2,6 +2,7 @@ $( document ).ready(function() {
 	open_sidebar();
 	close_sidebar();
   select_tab();
+  update_sidebar();
 });
 
 function open_sidebar() {
@@ -30,4 +31,14 @@ function select_tab() {
 		var show_class = $(this).attr('id');
 		$('.content-option').filter('.' + show_class).show();
 	})
+}
+
+function update_sidebar() {
+	$('tr').on('click',function() {
+		var team = $(this).prevAll().length;
+		$('.team-data').html(Table['standing'][team]['teamName']);
+		$('.team-logo img').attr('src', Table['standing'][team]['crestURI']);
+
+		// TODO: See about adding a new table row with roster data?
+	});
 }

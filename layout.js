@@ -9,8 +9,11 @@ for(var i = 0; i < Table.standing.length; i ++){
 	var GA = team.goalsAgainst;
 	var GD = team.goalDifference;
 	var points = team.points;
+	
+	var team_url = team._links.team.href;
+	var id = team_url.substring(38,team_url.length);
 
-	var new_row = "<tr>"
+	var new_row = "<tr id=" + id + ">"
 	new_row += "<td>" + name + "</td>"
 	new_row += "<td>" + GP + "</td>"
 	new_row += "<td>" + wins + "</td>"
