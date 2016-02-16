@@ -652,3 +652,225 @@ var Table = {
       }
    ]
 }
+
+
+var Team = {  
+   "_links":{  
+      "self":{  
+         "href":"http://api.football-data.org/v1/teams/338/players"
+      },
+      "team":{  
+         "href":"http://api.football-data.org/v1/teams/338"
+      }
+   },
+   "count":23,
+   "players":[  
+      {  
+         "name":"Gökhan Inler",
+         "position":"Central Midfield",
+         "jerseyNumber":33,
+         "dateOfBirth":"1984-06-27",
+         "nationality":"Switzerland",
+         "contractUntil":"2018-06-30",
+         "marketValue":"7,500,000 €"
+      },
+      {  
+         "name":"Shinji Okazaki",
+         "position":"Centre Forward",
+         "jerseyNumber":20,
+         "dateOfBirth":"1986-04-16",
+         "nationality":"Japan",
+         "contractUntil":"2019-06-30",
+         "marketValue":"8,000,000 €"
+      },
+      {  
+         "name":"Nathan Dyer",
+         "position":"Right Wing",
+         "jerseyNumber":24,
+         "dateOfBirth":"1987-11-29",
+         "nationality":"England",
+         "contractUntil":"2016-05-31",
+         "marketValue":"4,500,000 €"
+      },
+      {  
+         "name":"Kasper Schmeichel",
+         "position":"Keeper",
+         "jerseyNumber":1,
+         "dateOfBirth":"1986-11-05",
+         "nationality":"Denmark",
+         "contractUntil":"2018-06-30",
+         "marketValue":"4,500,000 €"
+      },
+      {  
+         "name":"Mark Schwarzer",
+         "position":"Keeper",
+         "jerseyNumber":32,
+         "dateOfBirth":"1972-10-06",
+         "nationality":"Australia",
+         "contractUntil":"2016-06-30",
+         "marketValue":"500,000 €"
+      },
+      {  
+         "name":"Ben Hamer",
+         "position":"Keeper",
+         "jerseyNumber":12,
+         "dateOfBirth":"1987-11-20",
+         "nationality":"England",
+         "contractUntil":"2018-06-30",
+         "marketValue":"500,000 €"
+      },
+      {  
+         "name":"Liam Moore",
+         "position":"Centre Back",
+         "jerseyNumber":18,
+         "dateOfBirth":"1993-01-31",
+         "nationality":"England",
+         "contractUntil":"2017-06-30",
+         "marketValue":"2,500,000 €"
+      },
+      {  
+         "name":"Wes Morgan",
+         "position":"Centre Back",
+         "jerseyNumber":5,
+         "dateOfBirth":"1984-01-21",
+         "nationality":"Jamaica",
+         "contractUntil":"2017-06-30",
+         "marketValue":"1,500,000 €"
+      },
+      {  
+         "name":"Marcin Wasilewski",
+         "position":"Centre Back",
+         "jerseyNumber":27,
+         "dateOfBirth":"1980-06-09",
+         "nationality":"Poland",
+         "contractUntil":"2016-06-30",
+         "marketValue":"500,000 €"
+      },
+      {  
+         "name":"Danny Simpson",
+         "position":"Right-Back",
+         "jerseyNumber":17,
+         "dateOfBirth":"1987-01-04",
+         "nationality":"England",
+         "contractUntil":"2017-06-30",
+         "marketValue":"2,000,000 €"
+      },
+      {  
+         "name":"Danny Drinkwater",
+         "position":"Central Midfield",
+         "jerseyNumber":4,
+         "dateOfBirth":"1990-03-05",
+         "nationality":"England",
+         "contractUntil":"2018-06-30",
+         "marketValue":"3,000,000 €"
+      },
+      {  
+         "name":"Andy King",
+         "position":"Central Midfield",
+         "jerseyNumber":10,
+         "dateOfBirth":"1988-10-29",
+         "nationality":"Wales",
+         "contractUntil":"2018-06-30",
+         "marketValue":"3,000,000 €"
+      },
+      {  
+         "name":"Matty James",
+         "position":"Central Midfield",
+         "jerseyNumber":8,
+         "dateOfBirth":"1991-07-22",
+         "nationality":"England",
+         "contractUntil":"2018-06-30",
+         "marketValue":"2,500,000 €"
+      },
+      {  
+         "name":"Marc Albrighton",
+         "position":"Left Midfield",
+         "jerseyNumber":11,
+         "dateOfBirth":"1989-11-18",
+         "nationality":"England",
+         "contractUntil":"2018-06-30",
+         "marketValue":"1,500,000 €"
+      },
+      {  
+         "name":"Jeffrey Schlupp",
+         "position":"Left-Back",
+         "jerseyNumber":15,
+         "dateOfBirth":"1992-12-23",
+         "nationality":"Ghana",
+         "contractUntil":"2019-06-30",
+         "marketValue":"6,000,000 €"
+      },
+      {  
+         "name":"Riyad Mahrez",
+         "position":"Right Wing",
+         "jerseyNumber":26,
+         "dateOfBirth":"1991-02-21",
+         "nationality":"Algeria",
+         "contractUntil":"2019-06-30",
+         "marketValue":"11,000,000 €"
+      },
+      {  
+         "name":"Leonardo Ulloa",
+         "position":"Centre Forward",
+         "jerseyNumber":23,
+         "dateOfBirth":"1986-07-26",
+         "nationality":"Argentina",
+         "contractUntil":"2018-06-30",
+         "marketValue":"8,500,000 €"
+      },
+      {  
+         "name":"Jamie Vardy",
+         "position":"Centre Forward",
+         "jerseyNumber":9,
+         "dateOfBirth":"1987-01-11",
+         "nationality":"England",
+         "contractUntil":"2018-06-30",
+         "marketValue":"6,000,000 €"
+      },
+      {  
+         "name":"Robert Huth",
+         "position":"Centre Back",
+         "jerseyNumber":6,
+         "dateOfBirth":"1984-08-18",
+         "nationality":"Germany",
+         "contractUntil":"2018-06-30",
+         "marketValue":"5,000,000 €"
+      },
+      {  
+         "name":"N'Golo Kanté",
+         "position":"Central Midfield",
+         "jerseyNumber":14,
+         "dateOfBirth":"1991-03-29",
+         "nationality":"France",
+         "contractUntil":"2019-06-30",
+         "marketValue":"7,000,000 €"
+      },
+      {  
+         "name":"Christian Fuchs",
+         "position":"Left-Back",
+         "jerseyNumber":28,
+         "dateOfBirth":"1986-04-07",
+         "nationality":"Austria",
+         "contractUntil":"2018-06-30",
+         "marketValue":"3,000,000 €"
+      },
+      {  
+         "name":"Daniel Amartey",
+         "position":"Defensive Midfield",
+         "jerseyNumber":null,
+         "dateOfBirth":"1994-12-21",
+         "nationality":"Ghana",
+         "contractUntil":"2020-06-30",
+         "marketValue":"3,000,000 €"
+      },
+      {  
+         "name":"Demarai Gray",
+         "position":"Left Wing",
+         "jerseyNumber":22,
+         "dateOfBirth":"1996-06-28",
+         "nationality":"England",
+         "contractUntil":"2020-06-30",
+         "marketValue":"4,000,000 €"
+      }
+   ]
+}
